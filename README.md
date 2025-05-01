@@ -14,6 +14,7 @@ Current Features:
   - Preferences
   - Health Status (like what sort of health care is needed)
   - Important relationships
+- Posting more detailed Check Logs in a Discord channel
 - Causing the following events:
   - Spawning a Caravan fomr your civ
   - Spawning a megabeast
@@ -21,11 +22,13 @@ Current Features:
   - Spawning Migrants
   - Spawing a Diplomat from your civ
 - Extending the Caravan's stay by a week (and a few other caravan related things)
+- Chat voting on petitions (Residency, Citizenship, Parley, Guildhalls, and Temples
 
 
 ---
 Future Plans (in no particular order):
-- Streamer Bot integration suppport
+- In-game stream chat
+- ~Streamer Bot integration suppport~ (On hold due to either a bug or a missing feature)
 - Twitch Militia stuff
    - Letting chat join and leave your military.
    - Get temporary time off from the miltary
