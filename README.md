@@ -27,7 +27,6 @@ Current Features:
 
 ---
 Future Plans (in no particular order):
-- In-game stream chat
 - ~Streamer Bot integration suppport~ (On hold due to either a bug or a missing feature)
 - Twitch Militia stuff
    - Letting chat join and leave your military.
