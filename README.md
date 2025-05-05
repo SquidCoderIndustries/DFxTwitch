@@ -8,7 +8,7 @@ Download from the releases page!
 Current Features:
 - Naming citizens after chat members (Joining the fort)
 - As part of the fort, a chat memeber can check the following things:
-  - Alive-ness (useful as a "pre-join" check)
+  - Alive-ness (useful as a "pre-join" check); Also shows cause of death.
   - Skills
   - Kills
   - Preferences
