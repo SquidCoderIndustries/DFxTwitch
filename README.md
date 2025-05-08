@@ -16,7 +16,7 @@ Current Features:
   - Important relationships
 - Posting more detailed Check Logs in a Discord channel
 - Causing the following events:
-  - Spawning a Caravan fomr your civ
+  - Spawning a Caravan from your civ
   - Spawning a megabeast
   - Spawning Wildlife
   - Spawning Migrants
@@ -37,3 +37,6 @@ Future Plans (in no particular order):
 - Causing Strange moods
 - Spawn arbitrary units
 - Reroll random names of things
+
+---
+Make feature requests on Github in the [issue tracker](https://github.com/SquidCoderIndustries/DFxTwitch/issues)
