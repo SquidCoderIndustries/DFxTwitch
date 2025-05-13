@@ -27,17 +27,7 @@ Current Features:
    - Letting chat join and leave your military
    - Get temporary time off from the miltary
 - Optional Twitch chat overlay in-game
-- Chat voting on petitions (Residency, Citizenship, Parley, Guildhalls, and Temples
-
-
----
-Future Plans (in no particular order):
-- ~Streamer Bot integration suppport~ (On hold due to either a bug or a missing feature)
-- Managing Noble Positions
-- Chat making mandates
-- Causing Strange moods
-- Spawn arbitrary units
-- Reroll random names of things
+- Chat voting on petitions (Residency, Citizenship, Parley, Guildhalls, and Temples)
 
 ---
 Make feature requests on Github in the [issue tracker](https://github.com/SquidCoderIndustries/DFxTwitch/issues)
