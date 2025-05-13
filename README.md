@@ -1,7 +1,8 @@
 # DFxTwitch
 Collection of scripts facilitating Twitch integration for Dwarf Fortress
 
-Download from the releases page!
+Download from the [releases page](https://github.com/SquidCoderIndustries/DFxTwitch/releases/latest)!
+Be sure to check out the [wiki](https://github.com/SquidCoderIndustries/DFxTwitch/wiki)!
 
 
 ---
