@@ -5,8 +5,12 @@ param (
     [switch]$OnlyBuild=$false
 )
 
-$appName = "DFxTwitchApp"
-$projDir = "DFxTwitchApp"
+# Settings
+$appName = "DFxTwitchApp"           # Your app name
+$projDir = "DFxTwitchApp"           # Project directory
+$publicRepoUrl = "https://github.com/SquidCoderIndustries/DFxTwitch.git"
+$ghPagesDir = "gh-pages"
+
 
 Set-StrictMode -version 2.0
 $ErrorActionPreference = "Stop"
@@ -64,12 +68,12 @@ if ($OnlyBuild) {
     exit
 }
 
-# Clone `gh-pages` branch.
-$ghPagesDir = "gh-pages"
-if (-Not (Test-Path $ghPagesDir)) {
-    git clone $(git config --get remote.origin.url) -b gh-pages `
-        --depth 1 --single-branch $ghPagesDir
+# Clone the public GitHub Pages branch
+if (Test-Path $ghPagesDir) {
+    Remove-Item -Recurse -Force $ghPagesDir
 }
+git clone $publicRepoUrl -b gh-pages --depth 1 --single-branch $ghPagesDir
+
 
 Push-Location $ghPagesDir
 try {
@@ -94,7 +98,7 @@ try {
     git commit -m "Update to v$version"
 
     # Push.
-    git push
+    git push origin gh-pages
 } finally {
     Pop-Location
 }
