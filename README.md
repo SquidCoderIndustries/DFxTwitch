@@ -7,6 +7,7 @@ Be sure to check out the [wiki](https://github.com/SquidCoderIndustries/DFxTwitc
 
 ---
 Current Features:
+- Post in chat the current modlist (if any)
 - Naming citizens after chat members (Joining the fort)
 - As part of the fort, a chat memeber can check the following things:
   - Alive-ness (useful as a "pre-join" check); Shows most recent cause of death if not alive.
