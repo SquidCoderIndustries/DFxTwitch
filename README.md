@@ -29,6 +29,7 @@ Current Features:
    - Get temporary time off from the miltary
 - Optional Twitch chat overlay in-game
 - Chat voting on petitions (Residency, Citizenship, Parley, Guildhalls, and Temples)
+   - Side effect is that ALL Twitch polls will show results in game (ties show the first option as winner)
 
 ---
 Make feature requests on Github in the [issue tracker](https://github.com/SquidCoderIndustries/DFxTwitch/issues)
